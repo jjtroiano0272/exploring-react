@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
+// import registerServiceWorker from './registerServiceWorker';
 import 'react-bootstrap';
 import App from './App';
-import Counter from './components/counter'; // Doesn't require { } because it's a default export!
+// import Counters from './components/counters'; // Doesn't require { } because it's a default export!
 
 ReactDOM.render(
   <React.StrictMode>
-    <Counter />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
